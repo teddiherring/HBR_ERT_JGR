@@ -25,13 +25,13 @@ Install Python. You can use [anaconda](https://www.anaconda.com/download/) for t
 Clone this repository by running the following in your command line:
 
 ```
-git clone https://github.com/teddiherring/HBR_ERT
+git clone https://github.com/teddiherring/HBR_ERT_JGR
 ```
 
 Next, `cd` into the directory you just created:
 
 ```
-cd HBR_ERT
+cd HBR_ERT_JGR
 ```
 
 You can use the provided conda environment to set up the necessary software packages:
