@@ -1,0 +1,12 @@
+name: hbr
+channels:
+  - conda-forge
+  - defaults
+  - gimli
+dependencies:
+  - python=3.9  
+  - pygimli=1.2.4
+  - jupyter
+  - pandas
+  - matplotlib=3.3
+  - openpyxl
