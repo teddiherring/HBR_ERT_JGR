@@ -1,17 +1,20 @@
 **[contents](#Contents) | [setup](#Setup) | [running the notebooks](#running-the-notebooks) | [issues](#issues)**
 
-# HBR_ERT
-Electrical resistivity tomography data and processing code for the Hudson Bay Railway.
+# HBR_ERT_JGR
+Electrical resistivity tomography data and processing code for the Hudson Bay Railway. 
+
+This repository supports a manuscript titled "Relationships Between Permafrost Distribution and Surface Conditions Along the Hudson Bay Railway Evaluated Using Electrical Resistivity Tomography" by Herring et al., submitted to the Journal of Geophysical Research: Solid Earth.
 
 ## Contents
 
 This repository has a few things in it so far:
 
 
-1. [raw data files](./raw%20data): This folder contains raw data, including ERT measurements, topography, and frost table depths. 
-2. [formatted data files](./formatted%20data): This folder contains ERT datasets that have been converted to the [BERT unified data format](http://resistivity.net/bert/data_format.html).
-3. [inverted results](./inverted%20results): This folder contains images of ERT models.
-4. [notebook for data processing](./scripts/inversion/invert_all_HBR_data.ipynb): In this notebook, you can load and invert ERT datasets.
+1. [ERT data](./formatted%20ert%20data): This folder contains raw ERT measurements in the [BERT unified data format](http://resistivity.net/bert/data_format.html).
+2. [borehole data](./borehole%20data): This folder contains measured borehole temperatures.
+3. [frost tables ](./frost%20tables): This folder contains measured frost table depths.
+4. [notebook to determine resistivity-temperature relationships](./generate_rho_T_curves.ipynb): This notebook plots co-located ERT and temperature data and determines best-fit curves.
+5. [notebook for data processing](./invert_ert_data.ipynb): This notebook inverts the ERT datasets and estimates the boundary between frozen and unfrozen subsurface regions.
  
 ## Setup
 
