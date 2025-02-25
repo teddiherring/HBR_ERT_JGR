@@ -1,5 +1,7 @@
 **[contents](#Contents) | [setup](#Setup) | [running the notebooks](#running-the-notebooks) | [issues](#issues)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14921240.svg)](https://doi.org/10.5281/zenodo.14921240)
+
 # HBR_ERT_JGR
 Electrical resistivity tomography data and processing code for the Hudson Bay Railway. 
 
