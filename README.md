@@ -14,9 +14,9 @@ This repository has a few things in it so far:
 
 1. [ERT data](./formatted%20ert%20data): This folder contains raw ERT measurements in the [BERT unified data format](http://resistivity.net/bert/data_format.html).
 2. [borehole data](./borehole%20data): This folder contains measured borehole temperatures.
-3. [frost tables ](./frost%20tables): This folder contains measured frost table depths.
-4. [notebook to determine resistivity-temperature relationships](./generate_rho_T_curves.ipynb): This notebook plots co-located ERT and temperature data and determines best-fit curves.
-5. [notebook for data processing](./invert_ert_data.ipynb): This notebook inverts the ERT datasets and estimates the boundary between frozen and unfrozen subsurface regions.
+3. [climate data](./climate%20data): This folder contains climate data from nearby stations.
+4. [frost tables ](./frost%20tables): This folder contains measured frost table depths.
+5. [data processing scripts](./scripts): This folder contains scripts to generate resistivity-temperature relationships and invert ERT data with estimates of frozen body boundaries and their uncertainty.
  
 ## Setup
 
